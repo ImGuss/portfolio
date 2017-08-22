@@ -82,16 +82,29 @@ nav li {
     grid-area: donkey-kong-image;
 
     background-image: url('../images/donkey-kong.png');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
+    grid-column: 1/9;
+    grid-row: 2/6;
+
+    /*border: 1px solid white;*/
+  }
+
+  .donkey-kong-title {
+    grid-area: donkey-kong;
     grid-column: 2/5;
-    grid-row: 2/5;
+    grid-row: 3/4;
+
+    padding: 1em;
 
     /*border: 1px solid white;*/
 
-    border-radius: 20px;
+
+    text-align: center;
+    font-size: 3em;
   }
 
   .donkey-kong {
