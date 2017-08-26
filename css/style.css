@@ -68,16 +68,6 @@ nav li {
   }
 
 
-  /*.sidebar {
-    grid-area: sidebar;
-    grid-column: 1/4;
-    grid-row: 2;
-
-    background-color: darkgrey;
-    padding: 1em;
-  }*/
-
-
   .donkey-kong-image {
     grid-area: donkey-kong-image;
 
