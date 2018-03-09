@@ -8,14 +8,16 @@ require('../style.css');
 const Header = require('./header');
 const Footer = require('./footer');
 const FullScreen = require('./full-screen');
+const DonkeyKong = require('./donkey-kong');
 
 
 class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <Header />
         <FullScreen />
+        <DonkeyKong />
+        <Header />
         <Footer />
       </div>
     );
