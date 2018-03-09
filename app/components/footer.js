@@ -8,7 +8,7 @@ class Footer extends React.Component {
       <div>
         <p>Made with &hearts; by Guss</p>
       </div>
-    )
+    );
   }
 }
 
