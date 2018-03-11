@@ -1,8 +1,8 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 
-class Header extends React.Component {
+export default class Header extends React.Component {
   render() {
     return (
       <ul>
@@ -13,7 +13,3 @@ class Header extends React.Component {
     );
   }
 }
-
-
-
-module.exports = Header;

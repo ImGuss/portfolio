@@ -1,7 +1,7 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class DonkeyKong extends React.Component {
+export default class DonkeyKong extends React.Component {
   render() {
     return (
       <div>
@@ -20,5 +20,3 @@ class DonkeyKong extends React.Component {
     );
   }
 }
-
-module.exports = DonkeyKong;
